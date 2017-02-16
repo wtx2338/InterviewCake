@@ -55,8 +55,6 @@ public class Rectangle {
     return new Rectangle(xw[0], yh[0], xw[1], yh[1]);
   }
 
-  public 
-
   public String toString() {
     return String.format("(%d, %d, %d, %d)", leftX, bottomY, width, height);
   }
